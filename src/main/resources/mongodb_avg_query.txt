@@ -1,0 +1,3 @@
+db.employer.aggregate([
+   { $project: { companyName : 1, "monthlyPayroll.totalAmount" : 1 } }
+])

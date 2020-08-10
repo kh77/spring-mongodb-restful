@@ -1,0 +1,56 @@
+1) Insert Data as HTTP POST  
+
+{
+  "email": "nokia@hotmail.com",
+  "fullName": "Hello Nokia",
+  "mobilePhone": "123456789",
+  "companyName": "Nokia",
+  "nationality": "PAKISTAN",
+  "address": {
+	"fullAddress":"abc 123",
+	"city":"karachi",
+	"country":"PAKISTAN"
+  },
+  "monthlyPayroll": {
+		"totalAmount": 1000,
+		"date" : "2020-07-23T18:25:43.511Z"
+  },
+  "paymentTransactionHistory": [
+	{
+		"paymentAmount": 2000,
+		"paymentDate": "2020-07-25T18:25:43.511Z"
+	}
+  ],
+  "extraData": "this is transient field"
+}
+
+
+
+
+2) Insert Data as HTTP POST 
+
+
+{
+
+  "email": "etisalat@hotmail.com",
+  "fullName": "Hello ETISALAT",
+  "mobilePhone": "123456789",
+  "companyName": "Etisalat",
+  "nationality": "UAE",
+  "address": {
+	"fullAddress":"xyz 123",
+	"city":"Dubai",
+	"country":"UAE"
+  },
+  "monthlyPayroll": {
+		"totalAmount": 3000,
+		"date" : "2020-07-28T18:25:43.511Z"
+  },
+  "paymentTransactionHistory": [
+	{
+		"paymentAmount": 4000,
+		"paymentDate": "2020-07-29T18:25:43.511Z"
+	}
+  ],
+  "extraData": "this is transient field"
+}
